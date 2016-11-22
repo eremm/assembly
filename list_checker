@@ -7,7 +7,7 @@ sw $v0 filedescriptor
 
 #Allocate buffer memory for solution file
 li $v0, 9
-li $a0, 160
+li $a0, 1000
 syscall
 sw $v0 filebufferstart
 
@@ -15,7 +15,7 @@ readfile: #loads the file contents into the buffer
 li $v0 14
 lw $a0, filedescriptor
 lw $a1, filebufferstart
-li $a2, 1000
+li $a2, 100000
 syscall 
 sw $v0 sizeoffile
 

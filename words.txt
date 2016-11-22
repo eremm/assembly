@@ -1,6 +1,5 @@
-abcd     
-efgh     
-ijkl     
-mnop     
-qrst     
-uvwx     
+Z        
+ABCDEFGHI
+AB       
+AC       
+AX       
